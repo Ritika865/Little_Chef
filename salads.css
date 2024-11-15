@@ -1,0 +1,104 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background: linear-gradient(135deg, #38cedc, #db89ec);
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    margin: 0 15px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section styling */
+section {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin-left: 20px;
+    line-height: 1.8;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+/* Image styling */
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Style for mobile responsiveness */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header nav {
+        font-size: 1em;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
+
+
+.images{
+    height: 400px;
+    width: 400px;
+}
